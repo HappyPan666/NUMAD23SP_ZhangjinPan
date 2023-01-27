@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NUMAD23SP_ZhangjinPan</string>
+    <string name="do_you_like_this_course">Do you like this course?</string>
+    <string name="about_me">About Me</string>
+    <string name="happy_new_year">Happy New Year!</string>
+    <string name="todo">TODO</string>
 </resources>
