@@ -3,6 +3,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('D:\\NEU\\2021FALL\\5520\\NUMAD23SP_ZhangjinPan\\key.jks')
+            keyPassword 'pzj123pzj'
+            storePassword 'pzj123pzj'
+            keyAlias 'key0'
+        }
+    }
     namespace 'edu.northeastern.numad23sp_zhangjinpan'
     compileSdk 33
 

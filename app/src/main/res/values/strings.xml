@@ -4,4 +4,14 @@
     <string name="about_me">About Me</string>
     <string name="happy_new_year">Happy New Year!</string>
     <string name="todo">TODO</string>
+    <string name="b">B</string>
+    <string name="A">A</string>
+    <string name="a">a</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="pressed" />
+    <string name="Pressed">Pressed:-</string>
+    <string name="clicky_clicky">Clicky Clicky</string>
 </resources>
