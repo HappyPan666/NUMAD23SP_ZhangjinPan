@@ -13,9 +13,22 @@
         android:theme="@style/Theme.NUMAD23SP_ZhangjinPan"
         tools:targetApi="31">
         <activity
+            android:name=".prime_directive"
+            android:exported="false"
+            android:label="Prime Directive" />
+    <!--        android:configChanges="orientation|keyboardHidden|screenSize//this method also can be use to let the thread running when rotated"-->
+        <activity
+            android:name=".link_collector"
+            android:exported="false"
+            android:label="Link Collector" />
+        <activity
+            android:name=".about_me"
+            android:exported="false"
+            android:label="About Me" />
+        <activity
             android:name=".ClickyActivity"
-            android:label="Clicky Clicky"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Clicky Clicky" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

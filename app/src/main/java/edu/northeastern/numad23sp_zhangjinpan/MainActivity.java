@@ -19,18 +19,34 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button button_AboutMe = (Button) findViewById(R.id.button_aboutMe);
         button_AboutMe.setOnClickListener(this);
 
-
         //Assignment3: ClickyClicky
         Button button_clicky = (Button) findViewById(R.id.buttonClicky);
         button_clicky.setOnClickListener(this);
+
+        //Assignment4: Link Collector
+        Button button_link_collector = (Button) findViewById(R.id.buttonLinkCollector);
+        button_link_collector.setOnClickListener(this);
+
+        //Assignment5: Prime Directive
+        Button button_prime_directive = (Button) findViewById(R.id.buttonPrimeDirective);
+        button_prime_directive.setOnClickListener(this);
+
+
     }
 
     @Override
     public void onClick(View view) {
         if(view.getId() == R.id.button_aboutMe) {
-            Toast.makeText(MainActivity.this, "ZhangjinPan(pan.zhan@northeastern.edu)", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(MainActivity.this, about_me.class);
+            startActivity(intent);
         } else if(view.getId() == R.id.buttonClicky) {
             Intent intent = new Intent(MainActivity.this, ClickyActivity.class);
+            startActivity(intent);
+        } else if(view.getId() == R.id.buttonLinkCollector) {
+            Intent intent = new Intent(MainActivity.this, link_collector.class);
+            startActivity(intent);
+        } else if(view.getId() == R.id.buttonPrimeDirective) {
+            Intent intent = new Intent(MainActivity.this, prime_directive.class);
             startActivity(intent);
         }
 
