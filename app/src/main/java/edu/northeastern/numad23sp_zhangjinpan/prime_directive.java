@@ -30,7 +30,6 @@ public class prime_directive extends AppCompatActivity implements View.OnClickLi
 
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) { //bundle is used for to store the current stage key_value
         super.onCreate(savedInstanceState); //super is used to inform father class that I will use onCreate function
