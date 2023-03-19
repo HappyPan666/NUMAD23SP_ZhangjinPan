@@ -46,4 +46,9 @@
     <string name="current_numbers">Current Number:</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+    <string name="latitude">Latitude: -</string>
+    <string name="longitude">Longitude: -</string>
+    <string name="distance_traveled">Distance Traveled: -</string>
+    <string name="reset">reset</string>
+    <string name="location">location</string>
 </resources>

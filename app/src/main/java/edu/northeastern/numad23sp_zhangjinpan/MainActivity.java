@@ -31,6 +31,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button button_prime_directive = (Button) findViewById(R.id.buttonPrimeDirective);
         button_prime_directive.setOnClickListener(this);
 
+        //Assignment7: Location
+        Button button_location = (Button) findViewById(R.id.buttonLocation);
+        button_location.setOnClickListener(this);
+
 
     }
 
@@ -47,6 +51,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if(view.getId() == R.id.buttonPrimeDirective) {
             Intent intent = new Intent(MainActivity.this, prime_directive.class);
+            startActivity(intent);
+        } else if(view.getId() == R.id.buttonLocation) {
+            Intent intent = new Intent(MainActivity.this, location.class);
             startActivity(intent);
         }
 
